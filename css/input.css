@@ -1,0 +1,36 @@
+
+/*******************************Carousel*******************************/
+/* line 29, ../../spa/spatheme/scss/input.scss */
+.carousel-fade .carousel-inner {
+  z-index: 2;
+}
+
+/* line 31, ../../spa/spatheme/scss/input.scss */
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+
+/* line 38, ../../spa/spatheme/scss/input.scss */
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+/* line 41, ../../spa/spatheme/scss/input.scss */
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+/* line 47, ../../spa/spatheme/scss/input.scss */
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=input.css.map */
